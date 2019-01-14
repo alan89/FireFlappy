@@ -2291,7 +2291,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2027167544}
-        m_MethodName: BtnMainGame
+        m_MethodName: BtnCreateAccount
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2352,6 +2352,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61fb7a3e844a843f69142a692093d3b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  emailField: {fileID: 1728986663}
+  passwordField: {fileID: 1413494509}
 --- !u!1 &2147389462
 GameObject:
   m_ObjectHideFlags: 0
