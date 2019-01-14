@@ -75,6 +75,11 @@ public class ButtonsBehaviorScript : MonoBehaviour
 
 
     // Buttons behavior
+    public void BtnOpenCreateUserUI()
+    {
+        SceneManager.LoadScene("createAccount", LoadSceneMode.Single);
+    }
+
     public void BtnCreateAccount()
     {
         DebugLog("email: " + emailField.text + " and your password: " + passwordField.text);
